@@ -1,8 +1,8 @@
 def call() {
     // Clear all proxy settings before calling SonarQube
     withEnv([
-        'NO_PROXY=13.235.104.170,localhost,127.0.0.1,*.local',
-        'no_proxy=13.235.104.170,localhost,127.0.0.1,*.local',
+        'NO_PROXY=3.109.152.198,localhost,127.0.0.1,*.local',
+        'no_proxy=3.109.152.198,localhost,127.0.0.1,*.local',
         'HTTP_PROXY=',
         'HTTPS_PROXY=',
         'http_proxy=',
